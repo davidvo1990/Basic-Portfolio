@@ -1,0 +1,129 @@
+/*Header and footer, same on every pages*/
+		body{
+		background:lightgray;
+		}
+
+		div#link{
+		background:white;
+		position:fixed;
+		width: 100%;
+		top:0px;
+		left:0px;
+		overflow:hidden;
+		z-index:10;
+		}
+
+		h1#link{
+		Color:white;
+		background: red;
+		width:200px;
+		padding:16px;
+		text-align:center;
+		margin: 0px 0px 0px 50px;
+		}
+
+		ul#link{
+		list-style-type: none;
+		margin: 0;
+		padding: 10px;
+		overflow: hidden;
+		background: white;
+		width: 250px;
+		float:right;
+		}
+
+		ul#link li a{
+		display: block;
+		color: black;
+		text-align: center;
+		padding: 15px;
+		text-decoration: none;
+		width: 50px;
+		float: right;
+		}
+
+		ul#link li a:hover{
+		background-color: lightgray;
+		}
+		
+		footer{
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		background: black;
+		color: white;
+		text-align: center;
+		width: 100%;
+		padding: 16px;
+		}
+		
+	
+/*Smaller Header, same css, different text*/
+		div#bio{
+		overflow:auto;
+		background:white;
+		padding:50px;
+		margin: 120px 50px 50px 50px;
+		}
+		
+		h1#bio{
+		color:red;
+		margin-top:0px;
+		}
+/*About*/
+		img#bio{
+		width:300px;
+		height:200px;
+		float:left;
+		padding:20px;
+		}
+
+		p#bio{
+		padding: 10px;
+		}
+/*Contact*/
+		input[type="text"]{
+		width:100%;
+		}
+
+		textarea[name="Message"]{
+		overflow:auto;
+		height:200px;
+		width:100%;
+		}
+	
+		input[type="submit"]{
+		background:red;
+		color:white;
+		padding:10px 20px;
+		text-align: center;
+		display: inline-block;
+		font-size:15px;
+		border:none;
+		cursor: pointer;
+		}
+/*Portfolio*/
+		img.port{
+		width:200px;
+		height:150px;
+		padding: 30px;
+		overflow:auto;
+		
+		}
+		div.port{
+		background:red;
+		position:relative;
+		z-index: 1;
+		width: 180px;
+		text-align:center;
+		padding:10px;
+		top:-80px;
+		left:30px;
+		color:white;
+		}
+
+		div.ex{
+		float:left;
+		}
+		
+
