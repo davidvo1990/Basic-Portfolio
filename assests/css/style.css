@@ -1,28 +1,29 @@
 /*Header and footer, same on every pages*/
 		body{
-		background:lightgray;
+		background-image:url("../images/crossline-dots/crossline-dots/crossline-dots.png");
 		}
 
-		div#link{
+		div#header{
+		font-family: 'Georgia', Times, Times New Roman, serif;
 		background:white;
 		position:fixed;
 		width: 100%;
-		top:0px;
+		top: 0px;
 		left:0px;
 		overflow:hidden;
 		z-index:10;
 		}
 
-		h1#link{
+		h1#header{
 		Color:white;
-		background: red;
+		background: #4aaaa5;
 		width:200px;
 		padding:16px;
 		text-align:center;
 		margin: 0px 0px 0px 50px;
 		}
 
-		ul#link{
+		ul#header{
 		list-style-type: none;
 		margin: 0;
 		padding: 10px;
@@ -32,9 +33,9 @@
 		float:right;
 		}
 
-		ul#link li a{
+		ul#header li a{
 		display: block;
-		color: black;
+		color: #777777;
 		text-align: center;
 		padding: 15px;
 		text-decoration: none;
@@ -42,7 +43,7 @@
 		float: right;
 		}
 
-		ul#link li a:hover{
+		ul#header li a:hover{
 		background-color: lightgray;
 		}
 		
@@ -50,24 +51,27 @@
 		position: fixed;
 		left: 0;
 		bottom: 0;
-		background: black;
+		background: #666666;
 		color: white;
 		text-align: center;
 		width: 100%;
 		padding: 16px;
+		z-index: 10;
 		}
 		
 	
 /*Smaller Header, same css, different text*/
 		div#bio{
+		font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif; ;
 		overflow:auto;
 		background:white;
 		padding:50px;
-		margin: 120px 50px 50px 50px;
+		margin: 150px 50px 50px 50px;
+		color:#777777;
 		}
 		
 		h1#bio{
-		color:red;
+		color:#4aaaa5;
 		margin-top:0px;
 		}
 /*About*/
@@ -92,8 +96,8 @@
 		width:100%;
 		}
 	
-		input[type="submit"]{
-		background:red;
+		input[type="button"]{
+		background:#4aaaa5;
 		color:white;
 		padding:10px 20px;
 		text-align: center;
@@ -111,7 +115,7 @@
 		
 		}
 		div.port{
-		background:red;
+		background:#4aaaa5;
 		position:relative;
 		z-index: 1;
 		width: 180px;
